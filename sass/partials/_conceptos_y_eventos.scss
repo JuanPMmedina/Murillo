@@ -70,11 +70,25 @@ body{
             transition: 0.5s ease-out;
             overflow: visible;
             .card-details {
-                color: rgb(162, 1, 1);
+                color: rgb(0, 0, 0);
                 height: 100%;
                 gap: .5em;
                 display: grid;
                 place-content: center;
+            }
+            .modal{
+                .modal-dialog{
+                    .modal-content{
+                        .modal-header{
+                            h1{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                .modal-body{
+                    color: black;
+                }
             }
             .card-button {
                 transform: translate(-50%, 125%);
@@ -239,7 +253,7 @@ body{
             }
         }
         .tittle_eventos{
-            color: rgba(255, 255, 255, 0.904);
+            color: rgba(0, 0, 0, 0.904);
             text-align: left;
             font-size: 40px;
             margin-top: 50px;
